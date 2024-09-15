@@ -39,8 +39,8 @@ The data was previously cleaned with a first ETL process, the last changes produ
 In this step, the principal objective was to:
 - To use KDE Plot  for visualizating the probability density of each variable (example).
   ![](images/credit-limit-kdeplot.jpg)
-- To compare dependent variable with less correlated independent variable.
 - To graph and understand other correlations in values.
+  
 
 
 
