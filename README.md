@@ -1,2 +1,2 @@
 # Marketing-Project
-![](images/human-resources-introduction.jpg)
+![](imagenes/marketing-introduction.jpg)
