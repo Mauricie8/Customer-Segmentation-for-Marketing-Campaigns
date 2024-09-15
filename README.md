@@ -51,8 +51,13 @@ The first proof was with 8 as a right number of clusters for the model.
 
 ## Principal Components Analysis (PCA)
 After graphing each value  represented with the clusters, we can see that the results are not so good.
+ ![](images/clusters-proof1.png)
+Next step was to reduce the cluster's quantity to an optim final value.
 
+## Autoencoders for Dimensionality Reduction
+In this step, the better way to finally reduce the cluster's quantity was with keras and tensorflow designing a neuronal network that endoded and decoded again
 
+TRY TO REALLY UNDERSTAND WHAT IS DOING THE MODEL IN THIS STEP
 
 
 
