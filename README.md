@@ -55,10 +55,19 @@ After graphing each value  represented with the clusters, we can see that the re
 Next step was to reduce the cluster's quantity to an optim final value.
 
 ## Autoencoders for Dimensionality Reduction
-In this step, the better way to finally reduce the cluster's quantity was with keras and tensorflow designing a neuronal network that endoded and decoded again
+In this step, the better way to finally reduce the cluster's quantity was with keras and tensorflow designing a neuronal network that endoded and decoded again each feature educing the number of features
 
-TRY TO REALLY UNDERSTAND WHAT IS DOING THE MODEL IN THIS STEP
+TRY TO REALLY UNDERSTAND WHAT IS DOING THE MODEL IN THIS STEP.. SEE THE NEXT RESPONSE OF CHATGPT
 
+---
+An autoencoder reduces the dimensionality of the data, not the number of clusters. Here's a breakdown:
+
+Reducing Data Dimensionality: An autoencoder learns a compressed, lower-dimensional representation of the input data through its hidden layers. The goal is to represent the essential features of the data in fewer dimensions, making it easier for algorithms like K-means to find meaningful patterns.
+
+K-means Clustering: After the dimensionality reduction, K-means is applied to the compressed data to form clusters. The number of clusters is still determined by K-means, based on the number of groups you define, not by the autoencoder.
+
+In short, the autoencoder reduces the number of features (dimensionality), while K-means finds clusters in the reduced data.
+---
 
 
 
