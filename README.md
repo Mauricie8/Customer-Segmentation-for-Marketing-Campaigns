@@ -40,7 +40,17 @@ In this step, the principal objective was to:
 - To use KDE Plot  for visualizating the probability density of each variable (example).
   ![](images/credit-limit-kdeplot.jpg)
 - To graph and understand other correlations in values.
+  ![](images/correlations.png)
   
+## Definition of Number of Clusters
+Prevously to create testing and training datasets, some data must have been scaled, such as categorical features 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole' and 'MaritalStatus'.
+Test size selected was 25%.
+
+## Definition of Numbers of Clusters
+The first proof was with 8 as a right number of clusters for the model.
+
+## Principal Components Analysis (PCA)
+After graphing each value  represented with the clusters, we can see that the results are not so good.
 
 
 
