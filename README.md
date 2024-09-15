@@ -27,7 +27,24 @@ This project addresses the problem by developing a machine learning model that s
 - K-Means
 
 ## Data Sourcing
-The dataset used in this project is a cleaned version of information extracted from human resources department. This processed data was prepared for building the predictive model.
+The dataset used in this project is a cleaned version of information extracted from the internet. 
+
+## Data Cleaning and Exploration
+The data was previously cleaned with a first ETL process, the last changes produced to it were:
+1) To drop null values in MINIMUM_PAYMENT and CREDIT_LIMIT.
+2) To remove unnecessary column such as CUST_ID.
+3) To scale all the dataset.
+
+## Exploratory Data Analysis (EDA)
+In this step, the principal objective was to:
+- To use KDE Plot  for visualizating the probability density of each variable (example).
+  ![](images/correlations.png)
+- To compare dependent variable with less correlated independent variable.
+- To graph and understand other correlations in values.
+
+
+
+
 
 
 
