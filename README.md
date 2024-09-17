@@ -43,21 +43,17 @@ In this step, the principal objective was to:
   ![](images/correlations.png)
   
 ## Definition of Number of Clusters
-Prevously to create testing and training datasets, some data must have been scaled, such as categorical features 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole' and 'MaritalStatus'.
-Test size selected was 25%.
-
-## Definition of Numbers of Clusters
-The first proof was with 8 as a right number of clusters for the model.
+Using K-Means the main objective here is to find the number of clusters necessary for data classification. In the first try, the optimal number is 8 clusters. After this, I defined a center for each cluster.
 
 ## Principal Components Analysis (PCA)
-After graphing each value  represented with the clusters, we can see that the results are not so good.
+After graphing each value represented with the respective clusters, we can see that the results are not so good. The classification is a little distorted.
  ![](images/clusters-proof1.png)
-Next step was to reduce the cluster's quantity to an optim final value.
+Next step is to reduce the data's dimension for optimizating the processing.
 
-## Autoencoders for Dimensionality Reduction
-In this step, the better way to finally reduce the cluster's quantity was with keras and tensorflow designing a neuronal network that endoded and decoded again each feature educing the number of features
+## Dimensionality Reduction
+In this step, I try to reduce the dimensinality of the data with keras and tensorflow designing a neuronal network that encoded and decoded again each feature reducing the number of features (Autoencoders). 
+Next step I to check if this reduction is good for data clustering. Let's try with K-Means again.
 
-TRY TO REALLY UNDERSTAND WHAT IS DOING THE MODEL IN THIS STEP.. SEE THE NEXT RESPONSE OF CHATGPT
 
 ---
 An autoencoder reduces the dimensionality of the data, not the number of clusters. Here's a breakdown:
