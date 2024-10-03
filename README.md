@@ -1,4 +1,4 @@
-# Marketing-Project
+# Customer Segmentation for Marketing Campaigns
 ![](images/marketing-introduction.jpg)
 
 ---
