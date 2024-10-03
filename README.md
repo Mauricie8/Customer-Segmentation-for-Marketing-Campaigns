@@ -30,16 +30,16 @@ This project addresses the problem by developing a machine learning model that s
 The dataset used in this project is a cleaned version of information extracted from the internet. 
 
 ## Data Cleaning and Exploration
-The data was previously cleaned with a first ETL process, the last changes produced to it were:
+The data was previously cleaned with a first ETL process, the last changes produced to it are:
 1) To drop null values in MINIMUM_PAYMENT and CREDIT_LIMIT.
 2) To remove unnecessary column such as CUST_ID.
 3) To scale all the dataset.
 
 ## Exploratory Data Analysis (EDA)
-In this step, the principal objective was to:
-- To use KDE Plot  for visualizating the probability density of each variable (example).
+In this step, the principal objective is to:
+- Use KDE Plot  for visualizating the probability density of each variable (example).
   ![](images/credit-limit-kdeplot.jpg)
-- To graph and understand other correlations in values.
+- Graph and understand other correlations in values.
   ![](images/correlations.png)
   
 ## Definition of Number of Clusters
